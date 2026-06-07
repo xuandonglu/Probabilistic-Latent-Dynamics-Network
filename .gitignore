@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Large data and generated artifacts should be published separately
+# through Git LFS, Releases, or an external data repository.
+*.hdf5
+*.h5
+*.pth
+*.mat
+**/latent_pred/model/
+**/reduction/data/
+**/reduction/models/1/
