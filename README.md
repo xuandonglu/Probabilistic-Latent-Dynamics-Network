@@ -1,8 +1,8 @@
 # PLDN Numerical Examples
 
 This repository contains the three numerical examples used in Section 3 of
-the paper "Probabilistic latent dynamics network for efficient and scalable
-modeling".
+the paper [Probabilistic latent dynamics network for efficient and scalable
+modeling](https://doi.org/10.1007/s00158-025-04206-5).
 
 ## Case Map
 
@@ -22,3 +22,24 @@ modeling".
 - Large datasets, trained weights, and generated `.mat` results are ignored by
   `.gitignore`. Publish those files separately with Git LFS, GitHub Releases,
   or an external data repository if they are needed for reproducibility.
+
+## Citation
+
+If you use this code, please cite:
+
+Lu, X., & Liu, Y. (2026). Probabilistic latent dynamics network for efficient
+and scalable modeling. *Structural and Multidisciplinary Optimization*, 69(1),
+Article 14. https://doi.org/10.1007/s00158-025-04206-5
+
+```bibtex
+@article{lu2026probabilistic,
+  title = {Probabilistic latent dynamics network for efficient and scalable modeling},
+  author = {Lu, Xuandong and Liu, Yongming},
+  journal = {Structural and Multidisciplinary Optimization},
+  volume = {69},
+  number = {1},
+  pages = {14},
+  year = {2026},
+  doi = {10.1007/s00158-025-04206-5}
+}
+```
